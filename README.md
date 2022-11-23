@@ -2,7 +2,7 @@
 
 Clone https://github.com/goran-mahovlic/eez-framework-arduino.git into Arduino Library folder
 
-In furure version we will make eez-framework as sumbmodule but for now do this
+In furure version we will make eez-framework as sumbmodule but for now do this in Arduino Library folder
 
 ```
 
