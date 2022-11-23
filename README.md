@@ -4,15 +4,23 @@ Clone https://github.com/goran-mahovlic/eez-framework-arduino.git into Arduino L
 
 In furure version we will make eez-framework as sumbmodule but for now do this
 
+```
+
 git clone https://github.com/goran-mahovlic/eez-framework-arduino.git
+
+```
 
 Install ESP32 or RP2040 platform in arduino
 
 Add
 
+```
+
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 
 https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
+
+```
 
 install under board manager
 
