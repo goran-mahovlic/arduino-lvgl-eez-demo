@@ -19,6 +19,9 @@
 
 #include <stdint.h>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
 /*====================
    COLOR SETTINGS
  *====================*/
@@ -753,6 +756,10 @@
 #endif
 
 /*--END OF LV_CONF_H--*/
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif /*LV_CONF_H*/
 

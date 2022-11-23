@@ -1,15 +1,13 @@
 #define LV_CONF_INCLUDE_SIMPLE
 #define EEZ_FOR_LVGL
 
-#include <eez-framework.h>
 #include <lvgl.h>
-include "lvgl_conf.h"
-
 #include <TFT_eSPI.h>
 #include "ui.h"
-
-extern void ui_init();
-extern void ui_tick();
+#include "screens.h"
+#include "images.h"
+#include "flow_def.h"
+#include "conf.h"
 
 /*Change to your screen resolution*/
 static const uint16_t screenWidth  = 320;
