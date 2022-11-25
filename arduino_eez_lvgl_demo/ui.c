@@ -9,5 +9,5 @@ void ui_init() {
 
 void ui_tick() {
     eez_flow_tick();
-    tick_screen(1);
+    tick_screen(g_currentScreen);
 }

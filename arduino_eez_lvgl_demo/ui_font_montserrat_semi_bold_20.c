@@ -1,13 +1,13 @@
 /*******************************************************************************
  * Size: 20 px
  * Bpp: 8
- * Opts: --enable-crashpad --enable-crash-reporter=bce393e5-31c5-48aa-87bb-274fb8aadd66,no_channel --user-data-dir=/home/mistery/.config/eezstudio --app-path=/tmp/.mount_EEZ-StK4Wwjs/resources/app.asar --no-sandbox --no-zygote --node-integration-in-worker --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --launch-time-ticks=111947434005 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,14505095109771661510,16627470263872172369,131072 --disable-features=SpareRendererForSitePerProcess --enable-crashpad
+ * Opts: --user-data-dir=C:\Users\mvladic\AppData\Roaming\eezstudio --app-path=C:\work\eez\studio --no-sandbox --no-zygote --node-integration-in-worker --lang=en-US --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --launch-time-ticks=583809938322 --mojo-platform-channel-handle=2520 --field-trial-handle=1708,i,10901750728988991483,17614325363713291340,131072 --disable-features=SpareRendererForSitePerProcess,WinRetrieveSuggestionsOnlyOnDemand /prefetch:1
  ******************************************************************************/
 
 #ifdef LV_LVGL_H_INCLUDE_SIMPLE
 #include "lvgl.h"
 #else
-#include <lvgl.h>
+#include "lvgl.h"
 #endif
 
 #ifndef UI_FONT_MONTSERRAT_SEMI_BOLD_20
